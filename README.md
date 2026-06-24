@@ -4,6 +4,8 @@ Fine-tuned text classifier that labels r/soccer posts as **analysis**, **hot_tak
 
 ---
 
+## Demo Video: https://drive.google.com/file/d/1cTojHlR3ewmJ1vicnv50leitOKib1rMx/view?usp=sharing
+
 ## Project Overview
 
 This project builds a three-class text classifier for r/soccer discourse. The goal is to distinguish posts that make structured, evidence-backed arguments (`analysis`) from posts that state bold opinions without evidence (`hot_take`) from posts that express immediate emotional responses to match events (`reaction`). The classifier is trained by fine-tuning `distilbert-base-uncased` on a hand-labeled dataset of 200 r/soccer posts.
